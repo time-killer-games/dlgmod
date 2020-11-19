@@ -1,10 +1,10 @@
 # dlgmod
 
------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 
 CLI version of DialogModule for macOS
 
------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 
 Can be ran from the Terminal App directly, or from other apps programatically.
 
@@ -18,11 +18,11 @@ For easy access to functions that handle this for you, and for more target platf
 
 https://github.com/time-killer-games/DialogModule
 
------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 
 # Install / Uninstall Instructions
 
------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 
 Click the green download button above on the right hand side of this page. 
 
@@ -32,35 +32,37 @@ With other internet browsers you will need to do that manually.
 
 Then run this, in the Terminal App, one line at a time, to install:
 
------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 
-`rm /usr/local/bin/dlgmod` # optional: remove last installed version
+`mkdir $HOME/Downloads/dlgmod-main/dlgmod\ \(x64\)`
 
-`cp $HOME/Downloads/dlgmod-master/dlgmod\ \(x64\)/dlgmod /usr/local/bin/dlgmod`
+`chmod 777 $HOME/Downloads/dlgmod-main/dlgmod\ \(x64\).sh`
 
-`rm -rf $HOME/Downloads/dlgmod-master` # remove folder; no longer needed
+`$HOME/Downloads/dlgmod-main/dlgmod\ \(x64\).sh`
 
-`sudo xattr -r -d com.apple.quarantine /usr/local/bin/dlgmod`
+`sudo cp -f $HOME/Downloads/dlgmod-main/dlgmod\ \(x64\)/dlgmod /usr/local/bin/dlgmod`
+
+`rm -rf $HOME/Downloads/dlgmod-master`
 
 `chmod 777 /usr/local/bin/dlgmod`
 
------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 
 To run a test program in the terminal, and see if it installed properly:
 
------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 
 `dlgmod --show-message 'Hello World!'`
 
------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 
 If nothing happens, installation failed, or there is a bug worth reporting.
 
 Uninstall with this terminal command:
 
------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 
 `rm /usr/local/bin/dlgmod`
 
------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
 
