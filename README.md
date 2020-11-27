@@ -4,6 +4,8 @@
 
 CLI version of DialogModule for macOS
 
+--------------------------------------------------------------------------------------
+
 `dlgmod --show-message string [icon] [title]`
 
 `dlgmod --show-message-cancelable string [icon] [title]`
