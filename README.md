@@ -44,9 +44,9 @@ Then run this, in the Terminal App, one line at a time, to install:
 
 `sudo cp -f $HOME/Downloads/dlgmod-main/dlgmod\ \(x64\)/dlgmod /usr/local/bin/dlgmod`
 
-`rm -rf $HOME/Downloads/dlgmod-master`
+`rm -rf $HOME/Downloads/dlgmod-main`
 
-`chmod 777 /usr/local/bin/dlgmod`
+`sudo chmod 777 /usr/local/bin/dlgmod`
 
 --------------------------------------------------------------------------------------
 
