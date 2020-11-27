@@ -4,6 +4,27 @@
 
 CLI version of DialogModule for macOS
 
+`dlgmod --show-message string [icon] [title]
+dlgmod --show-message-cancelable string [icon] [title]
+dlgmod --show-question string [icon] [title]
+dlgmod --show-question-cancelable string [icon] [title]
+dlgmod --show-attempt string [icon] [title]
+dlgmod --show-error string fatal [icon] [title]
+dlgmod --get-string string default [icon] [title]
+dlgmod --get-password string default [icon] [title]
+dlgmod --get-integer string default [icon] [title]
+dlgmod --get-passcode string default [icon] [title]
+dlgmod --get-open-filename filter filename
+dlgmod --get-open-filename-ext filter filename directory title
+dlgmod --get-open-filenames filter filename
+dlgmod --get-open-filenames-ext filter filename directory title
+dlgmod --get-save-filename filter filename
+dlgmod --get-save-filename-ext filter filename directory title
+dlgmod --get-directory directory
+dlgmod --get-directory-alt title directory
+dlgmod --get-color color
+dlgmod --get-color-ext color title`
+
 --------------------------------------------------------------------------------------
 
 Can be ran from the Terminal App directly, or from other apps programatically.
