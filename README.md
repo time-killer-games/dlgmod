@@ -40,6 +40,8 @@ Then run this, in the Terminal App, one line at a time, to install:
 
 `$HOME/Downloads/dlgmod-main/dlgmod\ \(x64\).sh`
 
+`sudo mkdir /usr/local/bin`
+
 `sudo cp -f $HOME/Downloads/dlgmod-main/dlgmod\ \(x64\)/dlgmod /usr/local/bin/dlgmod`
 
 `rm -rf $HOME/Downloads/dlgmod-master`
