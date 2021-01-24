@@ -58,7 +58,7 @@ If `dlgmod` is run from within an App Bundle, it will close when the main execut
 
 For easy access to functions that handle this for you, and for more target platforms, check out DialogModule:
 
-https://github.com/time-killer-games/DialogModule
+https://github.com/time-killer-games/libdlgmod
 
 --------------------------------------------------------------------------------------
 
